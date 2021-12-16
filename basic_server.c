@@ -1,10 +1,12 @@
+
+
 #include "pipe_networking.h"
 
 
 int main() {
 
-  int to_server;
-  int from_server;
+  int to_client;
+  int from_client;
 
-  from_server = client_handshake( &to_server );
+  from_client = server_handshake( &to_client );
 }
